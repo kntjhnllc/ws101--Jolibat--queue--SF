@@ -22,7 +22,7 @@ export default function Home() {
 
 
   return (
-    <div className='content-center flex pl-6'>   
+    <div className='content-center flex justify-center'>   
         <div className='p-4'>
         <form onSubmit={addOrder}>
             <label htmlFor='orderNumber' className='mr-2'>
